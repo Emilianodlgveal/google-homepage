@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#top{
+    display: flex;
+    justify-content: space-between;
+}
+#top ul li{
+    display: inline-block;
+    padding: 15px;
+}
+#top ul li a{
+    text-decoration: none;
+    color: black;
+}
+#top ul li a::after {
+    content: '';
+    width: 0%;
+    height: 1px;
+    background-color: black;
+    display: block;
+    margin: auto;
+}
+#top ul li a:hover::after {
+    width: 100%;
+}
+#google{
+    display: flex;
+    justify-content: center;
+    margin: 130px auto 20px;
+}
+#middle {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#search-bar {
+    width: 75%;
+    margin: 15px 12.5% 25px;
+    border-radius: 5%;
+    height: 4vw;
+}
+#middle ul li {
+    display: inline-block;
+    margin: 10px;
+}
+#middle ul li a{
+    text-decoration: none;
+    background-color: rgb(53, 53, 53, 0.05);
+    padding: 12px;
+}
+#space {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 20px 0px 30%;
+}
+#space a {
+    text-decoration: none;
+}
+footer {
+    position:fixed;
+    bottom: 0;
+    height: 10vh;
+    width: 100%;
+    padding-top: 10px;
+    background-color: rgba(117, 117, 117, 0.2) ;
+}
+footer #carbon a {
+    position:absolute;
+    margin: 0px 47%;
+    text-decoration: none;
+}
+footer #bottom-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+footer #bottom-buttons ul{
+    display: inline-block;
+    margin: 0 10px 10px;
+
+}
+footer #bottom-buttons ul li{
+    display: inline-block;
+    margin: 20px 10px 10px 10px;
+}
+footer #bottom-buttons ul li a{
+    text-decoration: none;
+}
+footer #carbon a::after {
+    content: '';
+    width: 0px;
+    height: 1px;
+    background-color: black;
+    display: block;
+}
+footer #carbon a:hover::after {
+    width: min-content;
+}
+footer #bottom-buttons ul li a::after {
+    content: '';
+    width: 0%;
+    height: 1px;
+    background-color: black;
+    display: block;
+}
+footer #bottom-buttons ul li a:hover::after {
+    width: 100%;
+}
+
